@@ -9,7 +9,7 @@ double pown(double value, uint16_t n) {
 		return 1;
 	}
 	for (uint16_t i = 1; i < n; ++i) {
-		s = s * s;
+		s = s * value;
 	}
 	return s;
 }
